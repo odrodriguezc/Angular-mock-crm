@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-customers-form',
+  selector: 'app-customer-form',
   template: `
     <h1>Créer un client</h1>
     <form>
@@ -34,7 +34,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [],
 })
-export class CustomersFormComponent implements OnInit {
+export class CustomerFormComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
